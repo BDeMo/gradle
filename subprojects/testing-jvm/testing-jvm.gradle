@@ -27,7 +27,7 @@ dependencies {
     compile ('org.testng:testng:6.3.1') {
        exclude module:'bsh'
     }
-    compile 'org.beanshell:bsh:2.0b5'
+    compile 'org.apache-extras.beanshell:bsh:2.0b6'
 
     testCompile 'com.google.inject:guice:2.0@jar' // this is for TestNG
 
